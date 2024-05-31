@@ -13,7 +13,7 @@ body {
 
 .container {
     max-width: 600px; 
-    position: relative;
+    position: absolute;
     padding: 10px;
     background-color: #fff;
     text-align: center;
@@ -79,26 +79,6 @@ button:hover {
 
 .timer.red {
     color: red;
-}
-.ad-panel-left, .ad-panel-right {
-width: 200px;
-/* Adjust width as needed */
-height: 400px;
-/* Adjust height as needed */
-margin: 10px;
-/* Adjust margin as needed */
-padding: 10px;
-/* Adjust padding as needed */
-position: fixed;
-top: 50%;
-transform: translateY(-50%);
-/* Add additional styling as needed */
-}
-.ad-panel-left {
-left: 0;
-}
-.ad-panel-right {
-right: 0;
 }
 @media only screen and (max-width: 700px) {
     .ad-panel-left, .ad-panel-right {
