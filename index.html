@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Math</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="./icons/icon.png" type="image/png"> <!-- Added favicon link -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2327449346890184"
+     crossorigin="anonymous"></script>
+</head>
+
+<body>
+					<!-- adpanel -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:400px"
+     data-ad-client="ca-pub-2327449346890184"
+     data-ad-slot="3242603133"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    <div class="title">Nova's Fast Math</div>
+    <div class="high-score">High Score: <span id="highScoreCount">0</span></div>
+    <div class="difficulty">
+<button onclick="loadQuestions('easy')">Easy</button>
+<button onclick="loadQuestions('medium')">Medium</button>
+<button onclick="loadQuestions('hard')">Hard</button>
+    </div>
+    <div class="container">
+        <div class="streak">Streak: <span id="streakCount">0</span></div>
+        <h1>Fast Math</h1>
+        <p id="timer" class="timer"></p> <!-- Added class "timer" -->
+        <div class="question">
+            <span id="question"></span> =
+            <input type="number" id="userAnswer" placeholder="Your answer">
+            <button onclick="checkAnswer()">Check</button>
+            <button onclick="retry()">Retry</button>
+        </div>
+        <p id="explanation"></p>
+        <p id="followUpExplanation"></p>
+        <p id="feedback"></p>
+    </div>
+    <div class="print">
+        If you're using an adblocker please consider disabling it! Our website is a free-to-use tool and relies on ads to support its operation.
+<br>
+Donate here: <a href="https://buymeacoffee.com/galore" target="_blank" style="color: #4CAF50;">Donate</a> 
+ 
+    </div>
+
+    <script src="js/script.js"></script>
+    <script> 
+window.onload = function() {
+            document.getElementById('userAnswer').focus();
+        };
+    </script>
+</body>
+</html>
